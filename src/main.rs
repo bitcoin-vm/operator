@@ -24,7 +24,7 @@ fn dynamic_ip(mut counter: u32) {
 
     match ip_result {
         Ok(rst) => {
-            println!("your dynamic ip address is: {}", rst);
+            println!("your dynamic ip address : {}", rst);
             post_dynamic_ip(&rst);
             counter = (counter + 1) % MODNUM;
         }
