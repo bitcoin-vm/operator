@@ -54,8 +54,8 @@ async fn return_ip() -> Result<String, Error> {
 #[tokio::main]
 async fn post_dynamic_ip(ip_str: &str) -> Result<()> {
 
-    // Dedicated npub: npub1smzlmsztyk34m5pdcx5x6al0jzfxrwz3f6l9lpxrdnfteqth2p2qwchau8
-    let my_keys = Keys::parse("6fe68964026142ea3b07d1c0c0d1b68192d54634c6d731d566907f8bf68e2efc")?;
+    // Dedicated npub: npub1s9qann6psxk7ycnafsxtcak9zy74flaflre03855n0zqn9uhhvusva958z
+    let my_keys = Keys::parse("6406f0f588179677e3d782a434153bc6dab57c529be669626603b28b2d0d96dc")?;
 
     let client = Client::new(&my_keys);
 
